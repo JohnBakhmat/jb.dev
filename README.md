@@ -1,6 +1,6 @@
 # nexxel.dev
 
-A boring personal website inspired by the [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse) made using [Astro](https://astro.build) and a sprinkle of [React](https://reactjs.org).
+A boring personal website inspired by the [Vesper Theme](https://github.com/raunofreiberg/vesper) made using [Astro](https://astro.build) and a sprinkle of [React](https://reactjs.org).
 
 ### Stack
 
@@ -14,8 +14,8 @@ A boring personal website inspired by the [Vitesse Theme](https://github.com/ant
 This application requires Node.js to run.
 
 ```sh
-git clone https://github.com/nexxeln/nexxel.dev.git
-cd nexxel.dev
+git clone https://github.com/johnbakhmat/johnbakhmat.dev.git
+cd johnbakhmat.dev
 npm i -g pnpm
 pnpm i
 pnpm dev
