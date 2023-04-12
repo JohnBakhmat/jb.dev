@@ -13,19 +13,19 @@
   "redirects": [
     {
       "source": "/github",
-      "destination": "https://github.com/nexxeln"
+      "destination": "https://github.com/johnbakhmat"
     },
     {
       "source": "/gh",
-      "destination": "https://github.com/nexxeln"
+      "destination": "https://github.com/johnbakhmat"
     },
     {
       "source": "/github/:slug*",
-      "destination": "https://github.com/nexxeln/:slug*"
+      "destination": "https://github.com/johnbakhmat/:slug*"
     },
     {
       "source": "/gh/:slug*",
-      "destination": "https://github.com/nexxeln/:slug*"
+      "destination": "https://github.com/johnbakhmat/:slug*"
     }
   ]
 }

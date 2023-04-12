@@ -72,10 +72,17 @@ export const BlogPosts = ({ posts }: { posts: Post[] }) => {
         className="w-full px-4 py-2 text-(neutral-200 lg) placeholder:text-neutral-400  bg-neutral-800 rounded-xl focus:(outline-none ring-2 ring-vitesseGreen) mb-6"
       />
 
+      {posts.length === 0 && (
+              <div className="text-3xl text-center text-gray-500 my-10">
+              Wow its so empty here &#x1F615;   
+              </div>
+              )      
+      }
+
       {results ? (
-        results.length > 0 ? (
-          results.map((result) => (
-            <Blog
+              results.length > 0 ? (
+                  results.map((result) => (
+                          <Blog
               key={`${result.refIndex}-${result.item.url}`}
               url={result.item.url}
               title={result.item.frontmatter.title}

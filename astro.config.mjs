@@ -7,15 +7,19 @@ import unocss from "unocss/astro";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 import { remarkReadingTime } from "./src/utils/reading-time.mjs";
+import {loadTheme} from 'shiki-themes';
+
+const codeTheme = loadTheme("./code-theme.json")
+
 
 export default defineConfig({
-  site: "https://www.nexxel.dev",
+  site: "https://www.jb.dev",
   markdown: {
     extendDefaultPlugins: true,
     rehypePlugins: [rehypeAutolinkHeadings],
     remarkPlugins: [remarkReadingTime],
     shikiConfig: {
-      theme: "vitesse-dark",
+      theme: codeTheme,
     },
   },
   integrations: [unocss(), mdx(), sitemap(), react(), prefetch()],

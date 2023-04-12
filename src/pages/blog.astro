@@ -14,7 +14,18 @@ import { BlogPosts } from "../components/BlogPosts";
 // );
 
 // Use Astro.glob() to fetch all posts which are not drafts (frontmatter.draft), and then sort them by date.
-const posts = (await Astro.glob<Post>("./blog/*.{md,mdx}"))
+// Handle error if theres no blogposts.
+function fetchPosts(){
+    try{
+        return Astro.glob<Post>("./blog/*.{md,mdx}")
+    }
+    catch (e){
+        return [];
+    }
+}
+
+
+const posts = (await fetchPosts())
   .filter((post) => !post.frontmatter.draft)
   .sort(
     (a, b) =>

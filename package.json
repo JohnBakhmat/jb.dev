@@ -1,5 +1,15 @@
 {
-  "name": "@nexxeln/blog",
+  "name": "@johnbakhmat/blog",
+  "authors": [
+    {
+      "name": "nexxel",
+      "url": "https://nexxel.dev"
+    },
+    {
+      "name": "johnbakhmat",
+      "email": "johnbakhmat@gmail.com"
+    }
+  ],
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -25,7 +35,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "reading-time": "^1.5.0",
-    "rehype-autolink-headings": "^6.1.1"
+    "rehype-autolink-headings": "^6.1.1",
+    "shiki": "^0.14.1",
+    "shiki-themes": "^0.2.7"
   },
   "devDependencies": {
     "@unocss/reset": "^0.48.3",
