@@ -13,7 +13,7 @@ export const Blog = ({ title, description, date, readingTime, url }: Props) => {
       rel="prefetch"
       className="flex flex-col gap-y-3 hover:(no-underline bg-neutral-800) p-4 mb-8 transition-colors rounded-xl"
     >
-      <h3 className="text-(vitesseGreen xl) md:text-2xl font-extrabold">
+      <h3 className="text-(themeText xl) md:text-2xl font-extrabold">
         {title}
       </h3>
 
