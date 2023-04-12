@@ -1,4 +1,4 @@
-# nexxel.dev
+# johnbakhmat.dev
 
 A boring personal website inspired by the [Vesper Theme](https://github.com/raunofreiberg/vesper) made using [Astro](https://astro.build) and a sprinkle of [React](https://reactjs.org).
 
@@ -22,5 +22,4 @@ pnpm dev
 ```
 
 ### Cloning / Forking
-
-This application is licensed under the [Apache-2.0 license](https://github.com/nexxeln/nexxel.dev/blob/main/LICENSE). If you're copying this website just let me know.
+This repo is cloned from [nexxel's repo](https://github.com/nexxeln/nexxel.dev) and is licensed under his [Apache-2.0 license](https://github.com/nexxeln/nexxel.dev/blob/main/LICENSE). If you're copying this website let HIM know.
