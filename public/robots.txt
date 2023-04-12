@@ -3,4 +3,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.nexxel.dev/sitemap-index.xml
+Sitemap: https://www.johnbakhmat.dev/sitemap-index.xml

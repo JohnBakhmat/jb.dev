@@ -13,7 +13,7 @@ const codeTheme = loadTheme("./code-theme.json")
 
 
 export default defineConfig({
-  site: "https://www.jb.dev",
+  site: "https://www.johnbakhmat.dev",
   markdown: {
     extendDefaultPlugins: true,
     rehypePlugins: [rehypeAutolinkHeadings],
