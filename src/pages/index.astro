@@ -4,7 +4,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Project from "../components/Project.astro";
-
+import {Age} from '../components/Age.tsx';
 type PinnedRepo = {
   owner: string;
   repo: string;
@@ -33,7 +33,7 @@ const pinnedRepos = await fetch(
     <main class="text-lg text-neutral-200">
       <h1 class="text-4xl pb-2">Hi, I'm John</h1>
       <p>
-        I'm 21 y/o software engineer. Blah blah I'm CS student blah whatever. 
+        I'm <Age client:visible /> y/o software engineer. Blah blah I'm CS student blah whatever. 
         <b>I build stuff</b>. I like <b>web dev</b>, <b>game dev</b> and so much more <b>dev</b>.
         My main focus is full-stack stuff with <b>Typescript</b> and some <b>Rust</b> to train my monkey brain.
         </p>

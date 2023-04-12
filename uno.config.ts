@@ -12,6 +12,7 @@ export default defineConfig({
   theme: {
     fontFamily: {
         martian: "Martian Mono",
+        mono: "Martian Mono",
     },
     colors: {
         themeText:"#FF7900",
