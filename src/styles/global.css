@@ -22,7 +22,6 @@
   font-style: normal;
 }
 
-
 @font-face {
   font-family: "Hack";
   src: url("/fonts/hack-regular-subset.woff2") format("woff2");
@@ -76,6 +75,9 @@ a {
   --at-apply: "text-themeText hover:underline underline-offset-2";
 }
 
+article {
+  --at-apply: "text-justify";
+}
 article a {
   --at-apply: "text-neutral-100 font-medium underline underline-offset-2";
 }
@@ -113,7 +115,8 @@ blockquote {
   --at-apply: "rounded-xl bg-themeBlack border border-neutral-700 p-4";
 }
 
-ul {
+ul,
+ol {
   --at-apply: "ml-8";
 }
 
@@ -123,4 +126,8 @@ ul > li {
 
 ul > li::marker {
   --at-apply: "text-neutral-500";
+}
+
+ol > li {
+  --at-apply: "list-decimal text-lg pb-2";
 }
