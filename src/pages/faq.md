@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/Layout.astro"
-title: "nexxel • faq"
+title: "JohnBakhmat | faq"
 description: "Questions frequently asked to me"
 heading: "FAQ"
 ---
@@ -26,12 +26,13 @@ I'm most comfortable with [TypeScript](https://typescriptlang.org). I've built s
 ### What are you working on nowadays?
 
 Nothing big at the moment. Mostly studying and helping [create-t3-app](https://github.com/t3-oss/create-t3-app) with localisation.
+The main focus now is a project called [rss-alligator] that is supposed to be a RSS aggregator using Discord bot as a frontend.
 
 <br />
 
 ### What is your favourite web framework?
 
-[Next](https://nextjs.org/) is cool, i love how easy it is to use it. [Astro](http://astro.build/) is fire, this site is built with it.
+[Next](https://nextjs.org/) is cool, i love how easy it is to use it. [Astro](http://astro.build/) is fire, this site is built with it. Looking forward into the future of [framework with horse head twitter logo](https://htmx.org/).
 
 <br />
 
