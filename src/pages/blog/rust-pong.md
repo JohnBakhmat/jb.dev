@@ -10,8 +10,7 @@ draft: true
 
 <br/>
 
-This year I graduated university as a Bachelor of Software Engineering. My graduation project was a gamedev project written with Unity. Even tho C# is a okay-ish language, it wasn't the best experience for me, so i decided to look for alternatives. What is better alternative to "Microsoft Java" than the language, that generates as much drama as there is water in the ocean? Im talking about you,
-<b>Rust</b>.
+This year I graduated university, and my graduation project was a game written with Unity. Even tho C# is a okay-ish language, it wasn't the best experience for me, so i decided to look for alternatives. What is better alternative to "Microsoft Java" than the language, that generates as much drama as there is water in the ocean? Im talking about you, <b>Rust</b>.
 
 <br/>
 
